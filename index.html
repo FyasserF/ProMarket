@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--! : website icon -->
+  <link rel="icon" href="images/icon.png" />
+  <!--! : importing css file -->
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/style-2.css" />
+  <!--! : importing AOS library -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!--! : importing icons -->
+  <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
+  <link rel=" stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+
+  <title>Pro Market</title>
+</head>
+
+<body>
+  <div id="blur">
+    <!--TODO : styling Nav Bar section -->
+    <nav>
+      <a href="" class="logo">
+        <img src="./images/logo.png" />
+      </a>
+      <div class="nav-item">
+        <div class="registre">
+          <p class="Login">Login</p>
+          <p class="Sign">Sign Up</p>
+        </div>
+      </div>
+    </nav>
+
+    <!--TODO : styling login and sign up section -->
+    <section class="error-msg">
+      <i class="bx bxs-error"></i>
+      <h2>Not Working yet !</h2>
+      <i class="bx bx-x-circle x"></i>
+    </section>
+    <section class="overlay"></section>
+
+    <!--TODO : styling Hero Section -->
+    <section>
+      <section class="HeroSection">
+        <h1>Unlimited movies, TV shows, and more.</h1>
+        <h4>
+          Shop with confidence on our website, gain many followers , likes and
+          more.
+        </h4>
+        <a href="#ourServices">Browse now</a>
+      </section>
+      <section class="imgs">
+        <img src="images/img-1.png" />
+        <img src="images/img-2.png" />
+        <img src="images/img-3.png" />
+        <img src="images/img-4.png" />
+      </section>
+    </section>
+
+    <!--TODO : styling Our Services Section -->
+    <section class="ourServices" id="ourServices">
+      <div class="text-area">
+        <h4 data-aos="fade-left" data-aos-duration="800">All</h4>
+        <h2 data-aos="fade-right" data-aos-duration="800">
+          Services of <span><img src="images/logo.png" /></span>
+        </h2>
+      </div>
+      <div class="container">
+        <input type="radio" name="slider" class="d-none" id="s1" checked />
+        <input type="radio" name="slider" class="d-none" id="s2" />
+        <input type="radio" name="slider" class="d-none" id="s3" />
+        <input type="radio" name="slider" class="d-none" id="s4" />
+        <input type="radio" name="slider" class="d-none" id="s5" />
+
+        <div class="cards" data-aos="zoom-out" data-aos-duration="800">
+          <label for="s1" id="slide1">
+            <div class="card">
+              <img src="images/R.png" alt="" />
+              <div class="infos">
+                <h4 class="name">Netflix</h4>
+                <p>Enjoy on your TV . Unlimited movies, TV shows</p>
+                <a href="#netflix">details</a>
+              </div>
+            </div>
+          </label>
+
+          <label for="s2" id="slide2">
+            <div class="card">
+              <img src="images/spotify.png" alt="" />
+              <div class="infos">
+                <h4 class="name">Spotify</h4>
+                <p>Listen to your music without ads and offline</p>
+                <a href="#spotify">details</a>
+              </div>
+            </div>
+          </label>
+
+          <label for="s3" id="slide3">
+            <div class="card">
+              <img src="images/desney.png" alt="" />
+              <div class="infos">
+                <h4 class="name">disney plus</h4>
+                <p>
+                  Thousands of hours of TV series ,movies for whole family
+                </p>
+                <a href="#desney">details</a>
+              </div>
+            </div>
+          </label>
+          <label for="s4" id="slide4">
+            <div class="card">
+              <img src="images/social.png" alt="" />
+              <div class="infos">
+                <h4 class="name">Social Media</h4>
+                <p>
+                  Upload your social media by increasing your followers and
+                  likes
+                </p>
+                <a href="#media">details</a>
+              </div>
+            </div>
+          </label>
+          <label for="s5" id="slide5">
+            <div class="card">
+              <img src="images/shahid.png" alt="" />
+              <div class="infos">
+                <h4 class="name">Shahid</h4>
+                <p>Exclusive Series Premiers shown first on Shahid</p>
+                <a href="#shahid">details</a>
+              </div>
+            </div>
+          </label>
+        </div>
+      </div>
+    </section>
+
+    <!--TODO : styling Payment Section -->
+
+    <div class="payment-section" id="Pay">
+      <div class="payment-title">PAYMENT METHOD!</div>
+      <div class="payment-options">
+        <div class="payment-option">
+          <div class="payment-subtitle paypal">PAYPAL</div>
+          <!-- PayPal payment method content here -->
+          <!-- <a class="payment-link pay-link" href="https://paypal.me/HHadelamous?country.x=MA&locale.x=ar_EG">GO TO
+            PAYPAL</a> -->
+        </div>
+
+        <div class="payment-option">
+          <div class="payment-subtitle cih-bank">
+            <span id="cih">CIH</span> <span id="bank">BANK</span>
+          </div>
+          <!-- CIH Bank payment method content here -->
+          <p class="payment-link" id="paymentLink">
+            <span id="span-cih">RIB:</span>
+            <!-- <span id="ribNumber">230 780 4954831211001700 94</span>
+            <span class="copy-icon" onclick="copyRIB()">
+              <i class="fa-solid fa-copy"></i> -->
+            </span>
+          </p>
+          <!-- <p class="payment-link">
+            <span id="span-cih">IBAN:</span>
+            <span id="ibanNumber">MA64 2307 8049 5483 1211 0017 0094</span>
+            <span class="copy-icon" onclick="copyIBAN()">
+              <i class="fa-solid fa-copy"></i>
+            </span>
+          </p> -->
+        </div>
+
+        <div class="payment-option">
+          <div class="payment-subtitle orange-charge">Orange Charge</div>
+          <!-- Orange Charge payment method content here -->
+          <!-- <a class="payment-link">Just take a photo or write the number written in Orange Charge</a> -->
+        </div>
+      </div>
+      <div>
+        <p id="last">
+          When you paid, take a photo and send it to us on WhatsApp
+          <span>&#x1F60A;</span>
+        </p>
+      </div>
+    </div>
+
+    <!--TODO : styling Desney+ Section -->
+    <section class="desney" id="desney">
+      <div class="text-area-v2">
+        <h4 data-aos="fade-left" data-aos-duration="800">Need</h4>
+        <h2 data-aos="fade-right" data-aos-duration="800">An account<span>Desney+</span> ?</h2>
+      </div>
+      <div class="desney-content" data-aos="fade-up" data-aos-duration="400">
+        <div class="text">
+          <h2 data-aos="fade-right" data-aos-duration="800">Enjoy your life with Desney+</h2>
+          <p data-aos="fade-right" data-aos-duration="800">
+            We provide an accounts Desney+ with a hight quality, Now you can
+            watch your favorite movies easely.
+          </p data-aos="fade-right" data-aos-duration="800">
+          <p class="price" data-aos="fade-right" data-aos-duration="800">2.99$ per Mounth.</p>
+          <a href="https://wa.link/e9tjto">Buy now</a>
+        </div>
+        <div class="img" data-aos="zoom-in-right" data-aos-duration="800">
+          <img src="images/film_1.jpg" />
+          <img src="images/film_2.jpg" />
+          <img src="images/film_3.jpg" />
+          <img src="images/film_4.jpg" />
+          <img src="images/film_5.jpg" />
+          <img src="images/film_6.jpg" />
+          <img src="images/film_7.jpg" />
+          <img src="images/film_8.jpg" />
+          <img src="images/film_9.jpg" />
+          <!-- <img src="images/mus.png" alt=""> -->
+        </div>
+        <!-- <div class="hover-effect"></div> -->
+      </div>
+    </section>
+
+    <!--TODO : styling Netflix Section -->
+
+    <section class="our-costumers_1" id="netflix">
+      <div class="text-area-v2">
+        <h4 data-aos="fade-left" data-aos-duration="800">Want</h4>
+        <h2 data-aos="fade-right" data-aos-duration="800">an account <span>Netflix</span> ?</h2>
+      </div>
+      <div class="cleints_1">
+        <!-- <h2>4K Quality Watch</h2> -->
+        <div class="cleint_1" data-aos="zoom-in-right" data-aos-duration="800">
+          <img src="images/R.png" />
+          <h3>Basic</h3>
+          <h5>5$/month</h5>
+          <h5>4K account</h5>
+          <h6><i class="fa-solid fa-check"></i>Watch all you want</h6>
+          <h6><i class="fa-solid fa-check"></i> Ad-free</h6>
+          <h6><i class="fa-solid fa-check"></i>Good quality video</h6>
+          <a href="https://wa.link/e9tjto">Buy now</a>
+        </div>
+        <div class="cleint_1" data-aos="zoom-in-right" data-aos-duration="800">
+          <img src="images/R.png" />
+          <h3>Standard</h3>
+          <h5>7$/3month</h5>
+          <h5>4K account</h5>
+          <h6>
+            <i class="fa-solid fa-check"></i>Recommendations just for you
+          </h6>
+          <h6>
+            <i class="fa-solid fa-check"></i>Change or cancel your plan
+            anytime.
+          </h6>
+          <h6><i class="fa-solid fa-check"></i>Better quality video</h6>
+          <a href="https://wa.link/e9tjto">Buy now</a>
+        </div>
+        <div class="cleint_1" data-aos="zoom-in-right" data-aos-duration="800">
+          <img src="images/R.png" />
+          <h3>Familly</h3>
+          <h5>23$/6month</h5>
+          <h5>4K account</h5>
+          <h6>
+            <i class="fa-solid fa-check"></i>Everything on Netflix for Good
+            price
+          </h6>
+          <h6>
+            <i class="fa-solid fa-check"></i> Unlimited viewing on all your
+            devices
+          </h6>
+          <h6><i class="fa-solid fa-check"></i>Best quality video</h6>
+          <a href="https://wa.link/e9tjto">Buy now</a>
+        </div>
+        <!-- <h2>720p Quality Watch</h2> -->
+        <div class="cleint_1" data-aos="zoom-in-right" data-aos-duration="800">
+          <img src="images/R.png" />
+          <h3>Low Basic</h3>
+          <h5>3$/month</h5>
+          <h5>720p</h5>
+          <h6><i class="fa-solid fa-check"></i>Watch all you want</h6>
+          <h6><i class="fa-solid fa-check"></i> Ad-free</h6>
+          <h6><i class="fa-solid fa-check"></i>Good quality video</h6>
+          <a href="https://wa.link/e9tjto">Buy now</a>
+        </div>
+
+        <div class="cleint_1" data-aos="zoom-in-right" data-aos-duration="800">
+          <img src="images/R.png" />
+          <h3>Low Standard</h3>
+          <h5>7$/2month</h5>
+          <h5>720p 1 profile</h5>
+          <h6>
+            <i class="fa-solid fa-check"></i>Recommendations just for you
+          </h6>
+          <h6>
+            <i class="fa-solid fa-check"></i>Change or cancel your plan
+            anytime.
+          </h6>
+          <h6><i class="fa-solid fa-check"></i>Better quality video</h6>
+          <a href="https://wa.link/e9tjto">Buy now</a>
+        </div>
+        <div class="cleint_1" data-aos="zoom-in-right" data-aos-duration="800">
+          <img src="images/R.png" />
+          <h3>Medium</h3>
+          <h5>9$/3month</h5>
+          <h5>720p 1 profile</h5>
+          <h6>
+            <i class="fa-solid fa-check"></i>Recommendations just for you
+          </h6>
+          <h6>
+            <i class="fa-solid fa-check"></i>Change or cancel your plan
+            anytime.
+          </h6>
+          <h6><i class="fa-solid fa-check"></i>Better quality video</h6>
+          <a href="https://wa.link/e9tjto">Buy now</a>
+        </div>
+        <div class="cleint_1" data-aos="zoom-in-right" data-aos-duration="800">
+          <img src="images/R.png" />
+          <h3>Hight Medium</h3>
+          <h5>9$/month</h5>
+          <h5>720p 4 profile</h5>
+          <h6>
+            <i class="fa-solid fa-check"></i>Recommendations just for you
+          </h6>
+          <h6>
+            <i class="fa-solid fa-check"></i>Change or cancel your plan
+            anytime.
+          </h6>
+          <h6><i class="fa-solid fa-check"></i>Better quality video</h6>
+          <a href="https://wa.link/e9tjto">Buy now</a>
+        </div>
+        <div class="cleint_1" data-aos="zoom-in-right" data-aos-duration="800">
+          <img src="images/R.png" />
+          <h3>Extra Family</h3>
+          <h5>20$/3month</h5>
+          <h5>720p 5 profile</h5>
+          <h6>
+            <i class="fa-solid fa-check"></i>Everything on Netflix for Good
+            price
+          </h6>
+          <h6>
+            <i class="fa-solid fa-check"></i> Unlimited viewing on all your
+            devices
+          </h6>
+          <h6><i class="fa-solid fa-check"></i>Best quality video</h6>
+          <a href="https://wa.link/e9tjto">Buy now</a>
+        </div>
+      </div>
+    </section>
+
+    <!--TODO : styling spotify Section -->
+
+    <section class="our-costumers_2" id="spotify">
+      <div class="text-area-v2">
+        <h4 data-aos="fade-left" data-aos-duration="800">Choose</h4>
+        <h2 data-aos="fade-right" data-aos-duration="800">your offer on<span>Spotify</span></h2>
+      </div>
+      <div class="cleints_2" data-aos="fade-up" data-aos-duration="400">
+        <div class="cleint_2" data-aos="zoom-in-right" data-aos-duration="800">
+          <img src="images/spotify.png" />
+          <h3>Mini</h3>
+          <h5>2.99$/month</h5>
+          <h5>1 account</h5>
+          <h6>
+            <i class="fa-solid fa-check"></i>Listen to your music without ads
+            on mobile
+          </h6>
+          <h6><i class="fa-solid fa-check"></i> Group session</h6>
+          <h6>
+            <i class="fa-solid fa-check"></i> Download 30 titles on 1 mobile
+            device
+          </h6>
+          <a href="https://wa.link/w5gozb">Buy now</a>
+        </div>
+        <div class="cleint_2" data-aos="zoom-in-right" data-aos-duration="800">
+          <img src="images/spotify.png" />
+          <h3>Standard</h3>
+          <h5>6$/3month</h5>
+          <h5>1 account</h5>
+          <h6><i class="fa-solid fa-check"></i>Ad-free music</h6>
+          <h6>
+            <i class="fa-solid fa-check"></i> Listen to your music anywhere -
+            even offline
+          </h6>
+          <h6><i class="fa-solid fa-check"></i> Music on demand</h6>
+          <a href="https://wa.link/w5gozb">Buy now</a>
+        </div>
+      </div>
+    </section>
+
+    <!--TODO : styling shahid Section -->
+    <section class="our-costumers_4" id="shahid">
+      <div class="text-area-v2">
+        <h4 data-aos="fade-left" data-aos-duration="800">Enjoy</h4>
+        <h2 data-aos="fade-right" data-aos-duration="800">the best originals On<span>Shahid</span>VIP</h2>
+      </div>
+      <div class="cleints_4">
+        <div class="cleint_4" data-aos="zoom-in-right" data-aos-duration="800">
+          <img src="images/shahid.png" />
+          <h3>Mini</h3>
+          <h5>2.99$/month</h5>
+          <h5>1 account</h5>
+          <h6><i class="fa-solid fa-check"></i>Safe kids content</h6>
+          <h6><i class="fa-solid fa-check"></i> Watch on mobile app only</h6>
+          <h6><i class="fa-solid fa-check"></i>1 device at a time</h6>
+          <a href="https://wa.link/w5gozb">Buy now</a>
+        </div>
+        <div class="cleint_4" data-aos="zoom-in-right" data-aos-duration="800">
+          <img src="images/shahid.png" />
+          <h3>Standard</h3>
+          <h5>8$/3month</h5>
+          <h5>1 account</h5>
+          <h6><i class="fa-solid fa-check"></i>No Ad-interruptions</h6>
+          <h6><i class="fa-solid fa-check"></i>Previews before TV</h6>
+          <h6><i class="fa-solid fa-check"></i>up to 6 devices</h6>
+          <a href="https://wa.link/w5gozb">Buy now</a>
+        </div>
+        <div class="cleint_4" data-aos="zoom-in-right" data-aos-duration="800">
+          <img src="images/shahid.png" />
+          <h3>Vip</h3>
+          <h5>10$/6month</h5>
+          <h5>1 account</h5>
+          <h6>
+            <i class="fa-solid fa-check"></i>Premium accounts for couples
+            living under the same roof
+          </h6>
+          <h6>
+            <i class="fa-solid fa-check"></i>Shahid Originals & exclusive
+            premieres
+          </h6>
+          <h6><i class="fa-solid fa-check"></i> up to 20 devices</h6>
+          <a href="https://wa.link/w5gozb">Buy now</a>
+        </div>
+        <div class="cleint_4" data-aos="zoom-in-right" data-aos-duration="800">
+          <img src="images/shahid.png" />
+          <h3>Premium</h3>
+          <h5>14$/year</h5>
+          <h5>1 account</h5>
+          <h6><i class="fa-solid fa-check"></i>Live TV in Full HD</h6>
+          <h6><i class="fa-solid fa-check"></i>RSL,F1,WWE and more</h6>
+          <h6>
+            <i class="fa-solid fa-check"></i> Download and watch offline
+          </h6>
+          <a href="https://wa.link/w5gozb">Buy now</a>
+        </div>
+      </div>
+    </section>
+
+    <!--TODO : styling Social media Section -->
+
+    <section class="our-costumers_5" id="media">
+      <div class="text-area-v2">
+        <h4 data-aos="fade-left" data-aos-duration="800">Look</h4>
+        <h2 data-aos="fade-right" data-aos-duration="800">into our<span>SOCIAL MEDIA </span>MARKETING</h2>
+      </div>
+      <div class="cleints_5">
+        <div class="cl1" data-aos="zoom-in-right" data-aos-duration="800">
+          <img src="images/youtube-logo.png" />
+          <h3>YOUTUBE</h3>
+          <h5></h5>
+          <h6>
+            <i class="fa-solid fa-check"></i>
+            GET MORE SUBSCRIBERS IN YOUR CHANEL
+          </h6>
+          <h6>
+            <i class="fa-solid fa-check"></i> SUBSCRIBERS, LIKES, SHORT VIEWS,
+            AND WATCH TIME ARE IMPORTANT METRICS FOR CONTENT CREATORS
+          </h6>
+          <h6>
+            <i class="fa-solid fa-check"></i>GUARANTEED DAILY EARNINGS OF 200
+            DOLLARS WITH OUR SPEEDY SERVICE!
+          </h6>
+          <a onclick="togglePopup()">CHECK NOW</a>
+        </div>
+        <div class="cl2" data-aos="zoom-in-right" data-aos-duration="800">
+          <img src="images/instagram-logo.png" />
+          <h3>INSTAGRAM</h3>
+          <h5></h5>
+          <h6>
+            <i class="fa-solid fa-check"></i>
+            GET MORE FOLLOWERS IN YOUR ACCOUNT
+          </h6>
+          <h6>
+            <i class="fa-solid fa-check"></i>INSTAGRAM METRICS LIKE FOLLOWERS,
+            LIKES, VIEWS, AND WATCH TIME .
+          </h6>
+          <h6>
+            <i class="fa-solid fa-check"></i>OUR SPEEDY INSTAGRAM BUSINESS
+            SERVICE GUARANTEES MAXIMUM ONLINE .
+          </h6>
+          <a onclick="togglePopup_2()">CHECK NOW</a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!--TODO : styling Youtube Section -->
+
+  <div id="window">
+    <i class="fa-solid fa-xmark close"></i>
+    <div class="head">
+      <h1>YOUTUBE SERVICE</h1>
+    </div>
+    <div class="hero">
+      <div class="selector">
+        <div id="selectfield">
+          <span id="selectText">youtube monetization</span>
+          <i class="fa-sharp fa-solid fa-angle-down icon-arrow"></i>
+        </div>
+        <ul id="list">
+          <li class="option" style="--i: 4" value="13$">
+            <i class="fa-solid fa-user-plus icon"></i>
+            <span class="option-text">Subscribers</span>
+          </li>
+          <li class="option" style="--i: 3" value="2$">
+            <i class="fa-solid fa-thumbs-up icon"></i>
+            <span class="option-text">Likes</span>
+          </li>
+          <li class="option" style="--i: 2" value="3.5$">
+            <i class="fa-solid fa-eye icon"></i>
+            <span class="option-text">Views</span>
+          </li>
+          <li class="option" style="--i: 1" value="25$">
+            <i class="fa-solid fa-tv icon"></i>
+            <span class="option-text">WatchTime</span>
+          </li>
+        </ul>
+      </div>
+      <div class="selector1">
+        <div>
+          <p id="title">Category</p>
+        </div>
+        <p id="textprice">price for 1k</p>
+        <div class="prixbuy">
+          <p id="prix">--$</p>
+          <a href="https://wa.link/kbzqxm">
+            <span> Buy service</span>
+            <i></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--TODO : styling Instagram Section -->
+
+  <div id="window_2">
+    <i class="fa-solid fa-xmark close"></i>
+    <div class="head">
+      <h1>Instagram SERVICE</h1>
+    </div>
+
+    <div class="hero_2">
+      <div class="selector_2">
+        <div id="selectfield_2">
+          <span id="selectText_2">Instagram GUARANTEED </span>
+          <i class="fa-sharp fa-solid fa-angle-down icon-arrow_2"></i>
+        </div>
+
+        <ul id="list_2">
+          <li class="option_2" style="--i: 4" value="2$">
+            <i class="fa-solid fa-user-plus icon_2"></i>
+            <span class="option-text_2">FOLLOWERS GUARANTEED </span>
+          </li>
+          <li class="option_2" style="--i: 4" value="1$">
+            <i class="fa-solid fa-user-plus icon_2"></i>
+            <span class="option-text_2">FOLLOWERS NO GUARANTEED</span>
+          </li>
+          <li class="option_2" style="--i: 3" value="1$">
+            <i class="fa-solid fa-thumbs-up icon_2"></i>
+            <span class="option-text_2">Likes</span>
+          </li>
+          <li class="option_2" style="--i: 3" value="1$">
+            <i class="fa-solid fa-thumbs-up icon_2"></i>
+            <span class="option-text_2">REALS VIEWS</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="selector2">
+        <div>
+          <p id="title_2">Category</p>
+        </div>
+        <p id="textprice_2">price for 1k</p>
+        <div class="prixbuy_2">
+          <p id="prix_2">--$</p>
+          <a href="https://wa.link/kbzqxm">
+            <span> Buy service</span>
+            <i></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--! ------ ==============  Footer  ============== ------ -->
+  <footer>
+    <div class="main-foot">
+      <div class="col">
+        <h3>Menu Links</h3>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li>
+            <a href="Products/index_MainPage(Products).html">Products</a>
+          </li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="help.html">Help</a></li>
+        </ul>
+      </div>
+
+      <div class="col">
+        <h3>Our Services</h3>
+        <ul>
+          <li><a href="#netflix">Accounts Netflix</a></li>
+          <li><a href="#spotify">Accounts Spotify</a></li>
+          <li><a href="#desney">Accounts Disney+</a></li>
+          <li><a href="#shahid">Accounts Shahid</a></li>
+          <li><a href="#media">Social Media</a></li>
+        </ul>
+      </div>
+      <div class="col">
+        <h3>Information</h3>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="help.html">Privacy & Policy</a></li>
+          <li><a href="help.html">Termes & Conditions</a></li>
+          <li><a href="#Pay">Payment Method</a></li>
+        </ul>
+      </div>
+
+      <div class="col">
+        <h3>Contact Us</h3>
+        <ul class="social">
+          <li><i class="fa-brands fa-instagram"></i></li>
+          <li><i class="fa-brands fa-twitter"></i></li>
+          <li><i class="fa-brands fa-facebook"></i></li>
+          <li><i class="fa-brands fa-linkedin"></i></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <section class="copyright">
+    <p>All rights reserved to Pro Market 2023 ©</p>
+  </section>
+
+  <script src="javascript/script.js"></script>
+  <script src="javascript/login.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
